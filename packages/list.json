@@ -1,0 +1,8 @@
+[
+  {
+    "compName": "InputCurrency",
+    "compZhName": "输入框",
+    "compDesc": "这是一个输入框",
+    "compClassName": "input-currency"
+  }
+]

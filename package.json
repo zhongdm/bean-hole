@@ -1,0 +1,28 @@
+{
+  "name": "bean-hole",
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/bean-hole.umd.js",
+  "module": "./dist/bean-hole.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/bean-hole.es.js",
+      "require": "./dist/bean-hole.umd.js"
+    }
+  },
+  "version": "0.0.5",
+  "scripts": {
+    "dev": "vite",
+    "build:prod": "vite build",
+    "build:lib": "vite --config lib.config.js build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.1",
+    "vite": "^2.9.7"
+  }
+}
